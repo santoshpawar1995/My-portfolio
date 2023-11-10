@@ -30,6 +30,12 @@
   font-size: 3rem;
 }
 .i-name > :nth-child(3) {
+  color: rgba(0, 153, 255, 0.943);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.i-name > :nth-child(4) {
   font-weight: 100;
   font-size: 14px;
   color: rgb(114, 115, 113);
@@ -129,4 +135,18 @@ margin-top: -2rem;
 height: 100%;
 width: 100%;
 border-radius: 1rem;
+}
+
+@media screen and (max-width:600px) {
+  .my-image1{
+    margin-left: 3rem;
+    width: 150%;
+    margin-top:1rem ;
+  }
+  .my-image{
+    margin-left: 4.6rem;
+    width: 140%;
+    margin-top: 2rem;
+  }
+  
 }

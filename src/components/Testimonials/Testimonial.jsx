@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Just I have created Amazon clone using ReactJs.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
+        "Just I have created Amazon-clone using ReactJs and React-Native.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Just I have created Instagram-clone using ReactJs.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Just I have created Linked-In using React-Native.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Just I have created Dream-Focus using ReactJs.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
     },
   ];
 

@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_0bf3ufk",
+        "template_r0e21jp",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "Eo3Zeyh-Ah22oOdSk"
       )
       .then(
         (result) => {
@@ -46,8 +46,8 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <input type="text" name="from_name" className="user"  placeholder="Name"/>
+          <input type="email" name="from_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting me"}</span>
