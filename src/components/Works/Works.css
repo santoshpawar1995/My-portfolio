@@ -111,6 +111,10 @@
   left: 18rem;
   top: 8rem;
 }
+.insta{
+  height:100%;
+  width: 100%;
+}
 
 @media screen and (max-width: 480px) {
   .works {

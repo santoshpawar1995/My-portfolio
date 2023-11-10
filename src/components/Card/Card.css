@@ -8,8 +8,8 @@
   align-items: center;
   width: 10rem;
   text-align: center;
-  background: rgba(255, 255, 255, 0.26);
-  border: 7px solid var(--orangeCard);
+  background: rgba(222, 238, 204, 0.976);
+  border: 7px solid rgb(157, 222, 255);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
   padding: 0px 26px 2rem 26px;
@@ -29,6 +29,7 @@
     border: none;
     padding: 10px;
     font-size: 16px;
+    font-style: italic;
     color: #5290FD;
 }
 
@@ -43,6 +44,8 @@
 
 @media screen and (max-width: 480px){
   .card{
+
     width: auto;
+    
   }
 }

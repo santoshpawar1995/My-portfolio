@@ -5,17 +5,17 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import profilePic1 from "../../img/amazon.png";
+import profilePic2 from "../../img/Instagram_logo.png";
+import profilePic3 from "../../img/linkedin2.png";
+import profilePic4 from "../../img/dream.svg";
 
 const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Just I have created Amazon clone using ReactJs.To complete this clone I have used React Hooks,EventHandlings,RouterDom for UI design and Functionality ",
     },
     {
       img: profilePic2,
@@ -37,11 +37,11 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
+        <span>Projects details:-</span>
+        <span>Compny and clone-project </span>
+       
+        <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
       </div>
       <Swiper
